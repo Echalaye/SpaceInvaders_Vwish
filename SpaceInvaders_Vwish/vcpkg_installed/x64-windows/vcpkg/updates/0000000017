@@ -1,0 +1,9 @@
+Package: libvorbis
+Version: 1.3.7
+Port-Version: 2
+Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: da892af55fd0b4bb749c79a621bac3a700f255eba5accb9303147056b0706682
+Description: Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format
+Status: install ok installed
