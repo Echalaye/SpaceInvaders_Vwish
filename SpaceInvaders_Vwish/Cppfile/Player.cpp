@@ -1,4 +1,11 @@
+//Player.cpp, script de la classe Player, contient les fonction :
+//	- GetMovementDirection : permet de définir la direction dans laquelle va le player et de la limité au bordure de l'écran
+//	- SetLife : permet de redéfinir la vie actuel du joueur (notament lorsqu'il prend des dégats)
+//	- GetLife et GetMaxLife: permette respectivement de récuperer la valeur life et maxLife du player.
+//	- Player: Constructeur permet de load le sprite du player et de le set a la bonne taille.
+
 #include "Player.h"
+
 
 
 Player::Player()
