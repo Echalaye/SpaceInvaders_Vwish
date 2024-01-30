@@ -1,3 +1,11 @@
+// boss.cpp est le script qui défini le comportement de la classe Boss, il contient les fonction suivante:
+//	- SetLife : permet de set la vie du boss
+//	- GetLife: permet de récuperer la vie actuel du boss
+//	- GetMaxLife: permet de récuperer la vie maximum du boss (utile pour la barre de vie)
+//	- GetSpeed: permet de récupérer la vitesse de déplacement du boss
+//	- Set Speed: permet de set la vitesse du boss
+//	- Boss: constructeur, permet de load le sprite du Boss
+
 #include "Boss.h"
 
 Boss::Boss()
