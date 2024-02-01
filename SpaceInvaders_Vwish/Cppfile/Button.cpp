@@ -1,3 +1,10 @@
+// Button.cpp est le script qui défini le comportement de la classe Button, il contient les fonction suivante:
+//	- SetIsActive : elle set la variable isActive qui permet d'autoriser la detection du clique
+//	  sur le bouton a la valeur passer en paramètre
+//	- GetIsActive : qui permet de récupérer la variable isActive 
+//	- CheckButton : le constructeur qui sert a load sprite du Bouton.
+//	  Le constructeur prend en paramètre l'image a utiliser pour le sprite du bouton
+
 #include "Button.h"
 
 Button::Button(std::string imageName)

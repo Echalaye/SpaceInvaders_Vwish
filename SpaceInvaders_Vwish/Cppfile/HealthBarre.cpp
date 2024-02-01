@@ -1,3 +1,9 @@
+// HealthBarre.cpp est le script qui défini le comportement de la classe HealthBarre, il contient les fonction suivante:
+//	- SetHealthBarre: qui prend deux paramètres, la vie actuel du joueur (ou du boss) et la vie maximum du joueur (ou du boss)
+//	  elle permet de set la taille du sprite de la barre de vie et donc de créer une vrai barre de vie qui diminue
+//	- HealthBarre : le constructeur qui sert a load sprite du background de la barre de vie ainsi que le sprite de la barre de vie
+//	  il prend en paramètre les deux chemin d'image a utiliser car elle change en fonciton de la barre de vie pour le boss où le joueur
+
 #include "HealthBarre.h"
 
 HealthBarre::HealthBarre(std::string imageNamebck, std::string imageNameFront)
